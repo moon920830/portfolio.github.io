@@ -20,7 +20,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --force",
+    "build": "ng build --force --legacy-peer-deps",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
